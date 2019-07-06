@@ -11,3 +11,4 @@ Promise.all(url.map(url => {
     console.log(results[1])
     console.log(results[2])
 }).catch(() => console.error('error'))
+.finally(() => console.log('Execute All Time'))
